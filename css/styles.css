@@ -69,3 +69,17 @@ header{
     border: none;
 }
 
+.header__menu-tabs{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    flex: none;
+}
+
+.header__menu-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
