@@ -122,3 +122,13 @@ header{
     font-weight: 700;
 
 }
+
+.header__account{
+    display: flex;
+}
+
+.header__actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
