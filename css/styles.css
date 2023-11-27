@@ -132,3 +132,37 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.header__user-img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.header__user-name{
+    font-size: .9rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.header__circle-link{
+    background: var(--button-link);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border-radius: 50%;
+    color: var(--dark-color-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header__circle-link .fa-sort-down{
+    position: relative;
+    top: -3px;
+    font-size: 1.4rem;
+}
+
