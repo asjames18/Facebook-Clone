@@ -170,7 +170,9 @@ header{
     padding: 90px 15px 20px;
     display: flex;
 }
-
+.sidenav{
+    width: 25%;
+}
 .sidenav__item{
     display: flex;
     align-items: center;
@@ -182,6 +184,8 @@ header{
     height: 40px;
     width: 40px;
     margin-right: 20px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .sidenav__item-title{
@@ -225,6 +229,8 @@ header{
     background: var(--fb-blue);
     border-radius: 50%;
     font-size: 1rem;
+    width: 35px;
+    height: 35px;
 }
 
 .sidenav__item-icon .fas, .sidenav__item .fab{
@@ -237,4 +243,18 @@ header{
 
 .sidenav__item-icon--circle-white .fas, .sidenav__item-icon--circle-white .fab{
     color: var(--fb-white);
+}
+
+.sidenav__line{
+    height: 3px;
+    background: var(--button-link);
+    margin-bottom: 15px;
+    display: block;
+}
+
+.sidenav__heading-title{
+    display: block;
+    color: var(--dark-color-text);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
 }
