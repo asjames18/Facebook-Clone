@@ -90,7 +90,7 @@ header{
 }
 
 .header__mobile-button{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     font-size: 1.7rem;
@@ -636,9 +636,15 @@ header{
     .header__menu-tab{
         display: none;
     }
+
+    .feed{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 1000px){
-   
+    .sidenav{
+        display: none;
+    }
 }
 @media only screen and (max-width: 768px){
     .header__menu-tab{
@@ -661,10 +667,31 @@ header{
         height: 40px;
         padding: 0;
     }
+    .header__mobile-button{
+        display: flex;
+    }
+
+    .feed{
+        display: block;
+    }
+    .stories{
+        flex-wrap: nowrap;
+        z-index: 9;
+        padding-bottom: 20px;
+        overflow-x:  scroll;
+    }
+    .stories__video-container{
+        flex: 1 0 auto;
+    }
+    .content-area--feed{
+        width: 100%;
+    }
 }
-@media only screen and (max-width: 320px){
-    .header__menu-tab{
+@media only screen and (max-width: 411px){
+    .header__account{
         display: none;
     }
-   
+    .post-types__title{
+        display: none;
+    }
 }
